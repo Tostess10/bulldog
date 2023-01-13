@@ -1,0 +1,163 @@
+body {
+  max-width: 1000px;
+  padding: auto 0;
+  margin: 0 auto;
+  background-color: #5271ff;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+
+}
+
+#title {
+  flex-direction: row;
+  height: 130px;
+  width: 200px;
+  line-height: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+
+li {
+  margin: 30px;
+  display: inline-block;
+  align-items: center;
+
+
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #5271ff;
+  transition: 0, 3s all;
+}
+
+h1 {
+  font-weight: 130px;
+
+
+}
+
+
+
+main {
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#inscreva-se-btn {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+#inscreva-se-btn:hover {
+  color: rgb(3, 0, 0);
+  background-color: white;
+}
+
+#creche-se-btn {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+#creche-se-btn:hover {
+  color: rgb(3, 0, 0);
+  background-color: white;
+}
+
+#sobre-se-btn {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+#sobre-se-btn:hover {
+  color: rgb(3, 0, 0);
+  background-color: white;
+}
+
+#serviço-se-btn {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+#serviço-se-btn:hover {
+  color: rgb(3, 0, 0);
+  background-color: white;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-family: sans-serif;
+
+}
+
+span {
+  background-color: black;
+
+
+}
+
+p {
+
+  line-height: 20px;
+  max-width: 500%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+img {
+  width: 480px;
+
+}
+
+form {
+
+  flex-direction: column;
+  display: flex;
+  width: 90%;
+
+}
+
+input [type="submit"] {
+  height: 30px;
+  width: 60%;
+  font-weight: 10px;
+  background-color: #5271ff;
+  color: #5271ff
+}
+
+input:hover {
+  background-color: #5271ff;
+  transition: 0, 3s
+}
+
+input {
+  padding: 5px;
+  margin-top: 10px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
